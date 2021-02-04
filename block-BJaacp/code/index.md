@@ -11,15 +11,15 @@ let arr2 = arr;
 
 Answer the following with reason after going through the above code:
 
-- `[10] === [10]`
-- What is the value of obj? // answer
-- `obj == newObj`
-- `obj === newObj`
-- `user === newObj`
-- `user == newObj`
-- `user == obj`
-- `arr == arr2`
-- `arr === arr2`
+- `[10] === [10]`// false because differnt adderss
+- What is the value of obj? // answer // { surname: "Stark" };
+- `obj == newObj`// false  because differnt adderss
+- `obj === newObj`//false  because differnt adderss
+- `user === newObj`// false  because differnt adderss
+- `user == newObj`// false  because differnt adderss
+- `user == obj` // true because same adderss
+- `arr == arr2`// true because same adderss
+- `arr === arr2`// true because same adderss
 
 2. What's will be the value of `person1` and `person2` ? Explain with reason. Draw the memory representation diagram.
 
